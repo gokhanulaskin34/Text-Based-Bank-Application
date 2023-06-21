@@ -1,4 +1,3 @@
-# ISTINYE BANK - MP 1
 
 #Import
 import datetime
@@ -15,7 +14,7 @@ moneyzeynep = int(1000)
 loggedin = False
 
 # First Step - Login / Exit
-print("— Welcome to İSTİNYE Bank (v.0.1) —\n1. Login\n2. Exit")
+print("— Welcome to Bank (v.0.1) —\n1. Login\n2. Exit")
 sec1 = input(">>>")
 
 #Application
@@ -95,7 +94,7 @@ def first():
             # Account Information
             while useroption == "4":
                 current_time = datetime.datetime.now()
-                print("\n—————————— İSTİNYE Bank ——————————\n— ", current_time, " —\n——————————————————————————————————\nYour Name: ", userahmet, "\nYour Password: ", passwahmet, "\nYour Amount (TL): ", moneyahmet)
+                print("\n—————————— Bank ——————————\n— ", current_time, " —\n——————————————————————————————————\nYour Name: ", userahmet, "\nYour Password: ", passwahmet, "\nYour Amount (TL): ", moneyahmet)
                 first()
                 return
 
@@ -164,7 +163,7 @@ def first():
             # Account Information
             while useroption == "4":
                 current_time = datetime.datetime.now()
-                print("\n—————————— İSTİNYE Bank ——————————\n— ", current_time,
+                print("\n—————————— Bank ——————————\n— ", current_time,
                       " —\n——————————————————————————————————\nYour Name: ", userahmet, "\nYour Password: ", passwahmet,
                       "\nYour Amount (TL): ", moneyahmet)
                 first()
